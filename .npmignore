@@ -1,0 +1,10 @@
+# Ignore source files and unnecessary config
+src/
+webpack.config.js
+tsconfig.json
+node_modules/
+dist/src/
+
+# Ignore temporary files
+*.log
+*.tsbuildinfo

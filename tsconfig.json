@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+		"target": "ES5",
+		"module": "commonjs",
+		"declaration": true, // Generate type declaration files
+		"declarationDir": "./dist", // Output all .d.ts files in the dist folder
+		"outDir": "./dist", // Output compiled JavaScript files in the dist folder
+		"inlineSourceMap": true, // Include sourcemap files inside the emitted JS
+		"rootDir": "./src", // Set the root directory of your input files
+		"esModuleInterop": true,
+		"strict": true,
+		"skipLibCheck": true,
+		"forceConsistentCasingInFileNames": true
+	},
+	"include": ["src/**/*"], // Include all files in src folder
+	"exclude": ["node_modules", "dist"] // Exclude node_modules and dist from being included
+}
